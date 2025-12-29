@@ -7,7 +7,9 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<main id="app">
+<main class="container">
+
+
 <h1>⭐ 2026 North Star</h1>
 <p class="theme">Building Christian convictions rooted in forgiveness and happiness</p>
 
@@ -19,6 +21,19 @@
 </section>
 
 
+<section class="today">
+<p id="reminder" class="reminder"></p>
+</section>
+
+
+<section class="verse">
+<h3>Today’s Scripture</h3>
+<p id="verseText"></p>
+<small id="verseRef"></small>
+<small class="copyright">Scripture taken from the New King James Version®. © Thomas Nelson.</small>
+</section>
+
+
 <section class="checkin">
 <h3>Daily Check‑In</h3>
 <label><input type="checkbox" /> Acted with forgiveness</label>
@@ -26,16 +41,16 @@
 <label><input type="checkbox" /> Chose peace over impulse</label>
 <label><input type="checkbox" /> Experienced joy</label>
 </section>
+
+
+<nav class="nav">
+<a href="pillars.html">Pillars →</a>
+</nav>
+
+
 </main>
 
-<section class="pillars">
-<h3>Pillars</h3>
-<div class="pillar">🕊️ <strong>Faith</strong><p>Where can I choose forgiveness today?</p></div>
-<div class="pillar">👨‍👩‍👧‍👦 <strong>Family</strong><p>Create or share something meaningful.</p></div>
-<div class="pillar">🚭 <strong>Freedom</strong><p>This is freedom, not loss.</p></div>
-<div class="pillar">🎂 <strong>Forward at Sixty</strong><p>What am I looking forward to next?</p></div>
-</section>
-  
+
 <script src="app.js"></script>
 </body>
 </html>
