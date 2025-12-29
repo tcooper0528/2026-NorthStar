@@ -1,0 +1,46 @@
+body {
+font-family: system-ui, sans-serif;
+background: #f5f6f2;
+color: #222;
+margin: 0;
+padding: 1.5rem;
+}
+
+
+h1, h2, h3 {
+text-align: center;
+}
+
+
+.theme {
+text-align: center;
+font-style: italic;
+margin-bottom: 2rem;
+}
+
+
+.north-star {
+background: #ffffff;
+padding: 1.5rem;
+border-radius: 12px;
+margin-bottom: 2rem;
+}
+
+
+button {
+display: block;
+margin: 1rem auto;
+padding: 0.6rem 1.2rem;
+font-size: 1rem;
+}
+
+
+.hidden {
+display: none;
+}
+
+
+.checkin label {
+display: block;
+margin: 0.5rem 0;
+}
