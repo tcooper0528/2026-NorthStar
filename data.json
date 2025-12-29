@@ -1,0 +1,20 @@
+{
+"pillars": {
+"faith": {
+"title": "Faith",
+"prompt": "Where can I choose forgiveness today?"
+},
+"family": {
+"title": "Family & Creativity",
+"prompt": "What can I create or share that builds connection?"
+},
+"freedom": {
+"title": "Freedom",
+"prompt": "What choice today moves me toward freedom?"
+},
+"forward": {
+"title": "Forward at Sixty",
+"prompt": "What am I looking forward to next?"
+}
+}
+}
